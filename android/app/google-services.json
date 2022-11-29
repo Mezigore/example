@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "77609346532",
+    "project_id": "uzhin-doma",
+    "storage_bucket": "uzhin-doma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77609346532:android:0709e7129a538a50fc93f1",
+        "android_client_info": {
+          "package_name": "ru.app.uzhindoma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77609346532-9cn8dusdq69um5gmc0tkngrk567amb7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLCvVf8HqPVB7rLv58borqEfCMZRXqrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77609346532-9cn8dusdq69um5gmc0tkngrk567amb7c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "77609346532-lvibbd26r4ctapqoqk3otcedv12fooe8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.app.uzhindoma"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

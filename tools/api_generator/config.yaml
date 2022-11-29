@@ -1,0 +1,33 @@
+templates:
+  - type: service
+    nameSuffix: Urls
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/urls.txt
+    destinationPath: lib/interactor/common
+  - type: service
+    nameSuffix: Api
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/uzd_retrofit_api.txt
+    destinationPath: lib/api/client/{name}
+  - type: model
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/uzd_retrofit_model.txt
+    destinationPath: lib/api/data
+  - type: model
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/uzd_model.txt
+    destinationPath: lib/domain/gen
+  - type: enum
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/uzd_enum_retrofit.txt
+    destinationPath: lib/api/data
+  - type: enum
+    fileExtension: dart
+    fileNameCase: snakeCase
+    templatePath: tools/api_generator/templates/uzd_enum.txt
+    destinationPath: lib/domain/gen
